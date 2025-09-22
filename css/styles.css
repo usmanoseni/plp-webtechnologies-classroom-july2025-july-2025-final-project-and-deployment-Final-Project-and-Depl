@@ -495,7 +495,7 @@ nav {
 }
 
 
-/* 📲 Tablets / small laptops */
+/*Tablets / small laptops */
 @media screen and (max-width: 880px) {
   .call-to-action {
     flex-direction: column;
@@ -555,7 +555,7 @@ font-size: 28px;
   }
 }
 
-/* 📱 Mobile phones */
+/* Mobile phones */
 @media screen and (max-width: 600px) {
   .nav-links {
     display: none;
