@@ -1,0 +1,132 @@
+/* Contact Section */
+.hero-contact {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: #fff;
+   text-align: center;
+  padding: 160px 20px;
+  height: 25rem;
+}
+
+.hero-contact h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-contact p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-section {
+  padding: 4rem 2rem;
+  background: #f9f9f9;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Contact Info */
+.contact-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.contact-info p {
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.contact-info li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+  color: #444;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-info i {
+  color: #2575fc;
+  font-size: 1.2rem;
+}
+
+/* Social icons */
+.contact-info .social-icons {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.contact-info .social-icons a {
+  background: #5594ff41;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.contact-info .social-icons a:hover {
+  background: #5900ff42;
+}
+
+/* Contact Form */
+.contact-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1px solid #2575fc;
+}
+
+.contact-form button {
+  background: #2575fc;
+  color: #fff;
+  border: none;
+  padding: 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #2513c9;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
