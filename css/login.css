@@ -22,8 +22,12 @@ body {
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
   text-align: center;
   height: auto;
+  animation: fadeIn 0.5s ease-in-out;
 }
-
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 .login-container h2 {
   margin-bottom: 0.5rem;
 }
@@ -43,13 +47,14 @@ body {
   margin: 0.5rem 0 0.2rem;
   font-weight: bold;
 }
-
+ 
 .login-form input {
   padding: 0.8rem;
+  margin-bottom: 1.2rem;
   border: 1px solid #ddd;
   border-radius: 8px;
-  margin-bottom: 0.8rem;
-  font-size: 14px;
+  outline: none;
+  transition: border 0.3s ease;
 }
 .login-form input:focus {
     border-color: #ff9800;
@@ -87,7 +92,7 @@ body {
   margin-bottom: 1rem;
 }
 .remember{
-    margin-top: -0.5rem;
+    margin-top: -0.9rem;
 }
 
 .login-btn {
