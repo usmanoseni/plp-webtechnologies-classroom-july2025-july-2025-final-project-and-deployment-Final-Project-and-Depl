@@ -69,10 +69,10 @@ The goal of the project is to simulate a professional hosting provider website t
 
 **Structure:**  
 
-**Responsive Layout:**  
-- **Mobile (≤768px):** 1 column layout (hosting plans stacked)  
-- **Tablet (768–1024px):** 2 column layout  
-- **Desktop (>1024px):** 3 column layout  
+**Responsive**  
+- **Mobile** 1 column layout (hosting plans stacked)  
+- **Tablet** 2 column layout  
+- **Desktop** 3 column layout  
 
 ---
 
